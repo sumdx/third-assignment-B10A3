@@ -10,28 +10,78 @@
     <!-- Daisy UI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ef645af7a0.js" crossorigin="anonymous"></script>
+    <!-- Title -->
     <title>Rinterio</title>
+
+    <!-- CSS Styles -->
     <style>
         .font-manrope{
         font-family: "Manrope", system-ui;
         }
+        
+        
     </style>
+
 </head>
 
 <!-- Body -->
-<body class="font-manrope">
+<body class="font-manrope bg-gray-100 border">
     <!-- Header -->
-     <header>
+     <header class="container mx-auto overflow-x-hidden">
+        <!-- Navbar -->
+         <nav>
+            <div class="navbar">
+                <div class="navbar-start">
+                  <button class="bg-lime-400 rounded-full"><i class="fa-solid fa-arrow-right rounded-full p-3 -rotate-45"></i></button>
+                  <a class="btn btn-ghost text-xl font-bold">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-gray-500 hover:text-black">
+                    <li><a>Home</a></li>
+                    <li><a>Service</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <div>
+                        
+                        <button class="invisible lg:visible"><i class="fa-solid fa-magnifying-glass mr-2 p-3 rounded-full bg-white"></i></button>
+                        <button class="invisible lg:visible"><i class="fa-solid fa-cart-shopping p-3 mr-2 rounded-full bg-white"></i></button>
+                        <a class="btn bg-lime-400 rounded-full invisible md:visible">Book Consult <button class="bg-black rounded-full"><i class="fa-solid text-white fa-arrow-right rounded-full p-3 -rotate-45"></i></button></a>
+                    </div>
+
+                  <!-- Hidden Button -->
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-10  mt-3 mr-30 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                      <li><a>Service</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+         </nav>
 
      </header>
     <!-- Main -->
-     <main>
+     <main class=" border">
 
      </main>
 </body>
 
 <!-- Footer -->
-<footer>
+<footer class="border">
 
 </footer>
 </html>
