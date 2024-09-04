@@ -48,9 +48,8 @@
                 </div>
                 <div class="navbar-end">
                     <div>
-                        
-                        <button class="invisible lg:visible"><i class="fa-solid fa-magnifying-glass mr-2 p-3 rounded-full bg-white"></i></button>
-                        <button class="invisible lg:visible"><i class="fa-solid fa-cart-shopping p-3 mr-2 rounded-full bg-white"></i></button>
+                        <button class="invisible md:visible"><i class="fa-solid fa-magnifying-glass mr-2 p-3 rounded-full bg-white"></i></button>
+                        <button class="invisible md:visible"><i class="fa-solid fa-cart-shopping p-3 mr-2 rounded-full bg-white"></i></button>
                         <a class="btn bg-lime-400 rounded-full invisible md:visible">Book Consult <button class="bg-black rounded-full"><i class="fa-solid text-white fa-arrow-right rounded-full p-3 -rotate-45"></i></button></a>
                     </div>
 
@@ -78,7 +77,7 @@
           <img class="mx-auto" src="./assets/banner.png" alt="">
           <h1 class="mx-auto text-6xl text-black font-extrabold text-center mt-6">A barn house of this design has a striking appearance</h1>
           <p class="text-base text-black text-center lg:w-2/3 mx-auto mt-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-          <a class="btn mt-6 mb-20  bg-lime-200 rounded-full invisible md:visible">Book Consult <button class="bg-black rounded-full"><i class="fa-solid text-white fa-arrow-right rounded-full p-3 -rotate-45"></i></button></a>
+          <a class="btn mt-6 mb-20  bg-lime-200 rounded-full w-full md:max-w-fit">View Details <button class="bg-black rounded-full"><i class="fa-solid text-white fa-arrow-right rounded-full p-3 -rotate-45"></i></button></a>
         </section>
      </header>
 
@@ -89,7 +88,7 @@
       <section class="container mx-auto py-24">
         
         <!-- main container -->
-        <div class="lg:flex gap-10 justify-between relative">
+        <div class="lg:flex gap-10 justify-between relative p-2">
           <img src="./assets/Vector.png" class="absolute -left-5 -top-14 " alt="">
           <!-- Left div -->
           <div class="flex flex-col justify-between">
@@ -100,7 +99,7 @@
             </div>
 
             <!-- Cards -->
-            <div>
+            <div class="flex flex-col">
                 <!-- Card 1 -->
               <div class="bg-white flex p-6 rounded-xl gap-6">
                 <img src="./assets/commercial.png" alt="" class="text-black h-3/4 my-auto">
@@ -122,14 +121,14 @@
             
           </div>
           <!-- Right Div -->
-          <div>
+          <div class=" mt-5 md:mt-0">
             <img src="./assets/Rectangle.png" alt="">
           </div>
         </div>
       </section>
 
       <!-- Stat Section -->
-      <section class="container mx-auto bg-white p-8 rounded-2xl flex justify-evenly">
+      <section class="container mx-auto bg-white p-8 w-fit md:w-full rounded-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10  justify-evenly">
         <!-- stat 1 -->
         <div class="flex flex-col items-center gap-3">
           <i class="fa-regular fa-message mx-auto text-2xl"></i>
@@ -169,7 +168,7 @@
         
 
         <!-- Cards -->
-        <div class="grid grid-cols-4 gap-6 mt-8 mb-2">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 mb-2">
           <!-- card 1 -->
           <div class="bg-pink-50 p-6 rounded-xl">
             <img src="./assets/concept.png" alt="">
@@ -219,9 +218,9 @@
   
           <div class="mt-8">
             <!-- DIV 1 -->
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                <!-- card 1 -->
-              <div class="flex p-6 border border-gray-200 rounded-xl col-span-2 ">
+              <div class="flex flex-col lg:flex-row p-6 border border-gray-200 rounded-xl lg:col-span-2">
                 <img src="./assets/img1.png" alt="">
                 <div class="flex flex-col justify-between ml-6">
                   <h3 class="text-xl font-extrabold">Concept</h3>
@@ -233,20 +232,20 @@
                 </div>
               </div>
               <!-- card 2 -->
-              <div class="p-6 border border-gray-200 rounded-xl mx-auto ">
-                <img src="./assets/img2.png" alt="">
+              <div class="p-6 border border-gray-200 rounded-xl">
+                <img src="./assets/img2.png" alt="" class="h-full w-full object-cover">
               </div>
               </div>
               <!-- DIV 2 -->
-            <div class="grid grid-cols-5 gap-6 mt-6">
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 mt-6">
 
               <!-- card 3 -->
-              <div class="p-6 border grid items-center border-gray-200 rounded-xl mx-auto ">
-                <img src="./assets/img3.png" class="bg-cover" alt="">
+              <div class="p-6 border grid items-center border-gray-200 rounded-xl">
+                <img src="./assets/img3.png" class="h-full w-full object-cover" alt="">
               </div>
 
               <!-- Card 4 -->
-              <div class="flex p-6 border border-gray-200 rounded-xl col-span-3">
+              <div class="flex flex-col lg:flex-row p-6 border border-gray-200 rounded-xl lg:col-span-3">
                 <img src="./assets/img4.png" alt="">
                 <div class="flex flex-col justify-between ml-6">
                   <h3 class="text-xl font-extrabold">Concept</h3>
@@ -259,8 +258,8 @@
               </div>
 
               <!-- card 5 -->
-              <div class="p-6 h-full grid items-center border border-gray-200 rounded-xl mx-auto">
-                <img src="./assets/img5.png" alt="">
+              <div class="p-6  grid items-center border border-gray-200 rounded-xl ">
+                <img src="./assets/img5.png" alt="" class="h-full w-full object-cover">
               </div>
               </div>
 
@@ -284,84 +283,102 @@
           </div>
 
           <!-- Card Container -->
-           <div class="flex justify-between  mt-8">
+           <div class="flex flex-col gap-10 md:flex-col lg:flex-row justify-between items-center mt-8">
             <!-- Card 1 -->
-            <div class="card bg-base-100 w-96 shadow-xl">
-              <figure class="px-10 pt-10">
-                <img
-                  src="./assets/article1.png"
-                  alt="Shoes"
-                  class="rounded-xl" />
-              </figure>
-              <div class="flex px-10 mt-5 gap-3 items-center">
-                <i class="fa-solid fa-calendar-days"></i>
-                <p class="text-gray-500">July 24,2024</p>
-                <i class="fa-solid fa-user"></i>
-                <p class="text-gray-500">By Admin</p>
-              </div>
-              <div class="mx-10 mt-3 text-left">
+            <div class="card bg-base-100 w-96 md:w-full shadow-xl ">
+              <div class="flex flex-col md:flex-row lg:flex-col">
+                <figure class="px-10 pt-10 md:py-10 lg:pt-10 ">
+                  <img
+                    src="./assets/article1.png"
+                    alt="Shoes"
+                    class="rounded-xl w-full h-full md:object-cover" />
+                </figure>
+                <div>
+                  <div class="flex px-10 mt-5 gap-3 items-center">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p class="text-gray-500">July 24,2024</p>
+                    <i class="fa-solid fa-user"></i>
+                    <p class="text-gray-500">By Admin</p>
+                  </div>
 
-                <h2 class="text-xl font-bold">How to choose the furniture right  of your home.</h2>
-                <p class="text-gray-500 mt-4">Te barn house captivates with its blend of rustic charm and modern. </p>
-                <div class="card-actions pb-10">
-                  <div class="flex gap-2 justify-center items-center mt-4">
-                    <p class="font-bold">Read More</p>
-                    <i class="fa-solid fa-arrow-right rounded-full p-2 -rotate-45 bg-lime-400"></i>
+                  <div class="mx-10 mt-3 text-left">
+                      <h2 class="text-xl font-bold">How to choose the furniture right  of your home.</h2>
+                      <p class="text-gray-500 mt-4">Te barn house captivates with its blend of rustic charm and modern. </p>
+                    <div class="card-actions pb-10">
+                      <div class="flex gap-2 justify-center items-center mt-4">
+                        <p class="font-bold">Read More</p>
+                        <i class="fa-solid fa-arrow-right rounded-full p-2 -rotate-45 bg-lime-400"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
+                
               </div>
+              
             </div>
             <!-- Card 2 -->
-            <div class="card bg-base-100 w-96 shadow-xl">
-              <figure class="px-10 pt-10">
-                <img
-                  src="./assets/article1.png"
-                  alt="Shoes"
-                  class="rounded-xl" />
-              </figure>
-              <div class="flex px-10 mt-5 gap-3 items-center">
-                <i class="fa-solid fa-calendar-days"></i>
-                <p class="text-gray-500">July 24,2024</p>
-                <i class="fa-solid fa-user"></i>
-                <p class="text-gray-500">By Admin</p>
-              </div>
-              <div class="mx-10 mt-3 text-left">
+            <div class="card bg-base-100 w-96 md:w-full shadow-xl ">
+              <div class="flex flex-col md:flex-row lg:flex-col">
+                <figure class="px-10 pt-10 md:py-10 lg:pt-10 ">
+                  <img
+                    src="./assets/article2.png"
+                    alt="Shoes"
+                    class="rounded-xl w-full h-full md:object-cover" />
+                </figure>
+                <div>
+                  <div class="flex px-10 mt-5 gap-3 items-center">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p class="text-gray-500">July 24,2024</p>
+                    <i class="fa-solid fa-user"></i>
+                    <p class="text-gray-500">By Admin</p>
+                  </div>
 
-                <h2 class="text-xl font-bold">How to choose the furniture right  of your home.</h2>
-                <p class="text-gray-500 mt-4">Te barn house captivates with its blend of rustic charm and modern. </p>
-                <div class="card-actions pb-10">
-                  <div class="flex gap-2 justify-center items-center mt-4">
-                    <p class="font-bold">Read More</p>
-                    <i class="fa-solid fa-arrow-right rounded-full p-2 -rotate-45 bg-lime-400"></i>
+                  <div class="mx-10 mt-3 text-left">
+                      <h2 class="text-xl font-bold">How to choose the furniture right  of your home.</h2>
+                      <p class="text-gray-500 mt-4">Te barn house captivates with its blend of rustic charm and modern. </p>
+                    <div class="card-actions pb-10">
+                      <div class="flex gap-2 justify-center items-center mt-4">
+                        <p class="font-bold">Read More</p>
+                        <i class="fa-solid fa-arrow-right rounded-full p-2 -rotate-45 bg-lime-400"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
+                
               </div>
+              
             </div>
             <!-- Card 3 -->
-            <div class="card bg-base-100 w-96 shadow-xl">
-              <figure class="px-10 pt-10">
-                <img
-                  src="./assets/article1.png"
-                  alt="Shoes"
-                  class="rounded-xl" />
-              </figure>
-              <div class="flex px-10 mt-5 gap-3 items-center">
-                <i class="fa-solid fa-calendar-days"></i>
-                <p class="text-gray-500">July 24,2024</p>
-                <i class="fa-solid fa-user"></i>
-                <p class="text-gray-500">By Admin</p>
-              </div>
-              <div class="mx-10 mt-3 text-left">
+            <div class="card bg-base-100 w-96 md:w-full shadow-xl ">
+              <div class="flex flex-col md:flex-row lg:flex-col">
+                <figure class="px-10 pt-10 md:py-10 lg:pt-10 ">
+                  <img
+                    src="./assets/article3.png"
+                    alt="Shoes"
+                    class="rounded-xl w-full h-full md:object-cover" />
+                </figure>
+                <div>
+                  <div class="flex px-10 mt-5 gap-3 items-center">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p class="text-gray-500">July 24,2024</p>
+                    <i class="fa-solid fa-user"></i>
+                    <p class="text-gray-500">By Admin</p>
+                  </div>
 
-                <h2 class="text-xl font-bold">How to choose the furniture right  of your home.</h2>
-                <p class="text-gray-500 mt-4">Te barn house captivates with its blend of rustic charm and modern. </p>
-                <div class="card-actions pb-10">
-                  <div class="flex gap-2 justify-center items-center mt-4">
-                    <p class="font-bold">Read More</p>
-                    <i class="fa-solid fa-arrow-right rounded-full p-2 -rotate-45 bg-lime-400"></i>
+                  <div class="mx-10 mt-3 text-left">
+                      <h2 class="text-xl font-bold">How to choose the furniture right  of your home.</h2>
+                      <p class="text-gray-500 mt-4">Te barn house captivates with its blend of rustic charm and modern. </p>
+                    <div class="card-actions pb-10">
+                      <div class="flex gap-2 justify-center items-center mt-4">
+                        <p class="font-bold">Read More</p>
+                        <i class="fa-solid fa-arrow-right rounded-full p-2 -rotate-45 bg-lime-400"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
+                
               </div>
+              
             </div>
             
     
@@ -388,7 +405,7 @@
         </div>
         <div class="container mx-auto w-full px-20 my-6 ">
           <textarea class="w-full btntextarea rounded-3xl p-5" placeholder="Write message here "></textarea>
-          <a class="col-span-2 w-full mt-12 btn bg-lime-400 rounded-full invisible md:visible border-none">Send Mail <button class="bg-black rounded-full"><i class="fa-solid text-white fa-arrow-right rounded-full p-3 -rotate-45"></i></button></a>
+          <a class="col-span-2 w-full mt-12 btn bg-lime-400 rounded-full border-none">Send Mail <button class="bg-black rounded-full"><i class="fa-solid text-white fa-arrow-right rounded-full p-3 -rotate-45"></i></button></a>
         </div>
         
 
@@ -398,15 +415,15 @@
 </body>
 
 <!-- Footer -->
-<footer class="bg-slate-900 font-manrope">
-  <div class="py-24 flex flex-col items-center">
+<footer class=" bg-slate-900 font-manrope ">
+  <div class="py-24 flex flex-col items-center justify-center  ">
     <div>
       <button class="bg-lime-400 rounded-full"><i class="fa-solid fa-arrow-right rounded-full p-3 -rotate-45"></i></button>
       <a class="btn btn-ghost text-xl font-bold text-white">Rinterio</a>
     </div>
     <p class="text-gray-300 lg:w-2/5 mx-auto text-center mt-4 mb-12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
     <div class="navbar-center lg:flex">
-      <ul class="menu menu-horizontal  gap-20 px-1 text-gray-500">
+      <ul class=" flex flex-col items-center md:flex-row  gap-20 px-1 text-gray-500">
         <li><a>Home</a></li>
         <li><a>Service</a></li>
         <li><a>Portfolio</a></li>
@@ -414,7 +431,7 @@
         <li><a>Contact Us</a></li>
       </ul>
     </div>
-    <a class="mt-12 btn bg-lime-400 rounded-full invisible md:visible border-none">Book Consult <button class="bg-black rounded-full"><i class="fa-solid text-white fa-arrow-right rounded-full p-3 -rotate-45"></i></button></a>
+    <a class="mt-12 btn bg-lime-400 rounded-full w-full md:max-w-fit border-none">Book Consult <button class="bg-black rounded-full"><i class="fa-solid text-white fa-arrow-right rounded-full p-3 -rotate-45"></i></button></a>
   </div>
 
 </footer>
